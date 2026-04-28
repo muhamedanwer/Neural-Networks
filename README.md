@@ -1,25 +1,34 @@
-### Neural Networks 
+# Neural Networks
 
+MUST - Misr University for Science and Technology
 
-this repository contains all the codes and resources related to the Neural Networks course at Misr University for Science and Technology.
+## Structure
 
+```
+neural-networks/
+├── core/
+│   ├── activation_functions.py
+│   ├── perceptron.py
+│   ├── logic_gates.py
+│   └── layers.py
+│
+├── training/
+│   ├── backpropagation.py
+│   ├── loss_functions.py
+│   ├── optimizers.py
+│   └── train.py
+│
+├── models/
+│   ├── ann.py
+│   ├── cnn.py
+│   ├── rnn.py
+│   └── dnn.py
+│
+└── projects/
+    ├── ann/digit_recognition.py
+    ├── cnn/image_classification.py
+    ├── rnn/sentiment_analysis.py
+    └── dnn/handwriting_recognition.py
+```
 
-#### content:
-- activation functions
-    - linear activation function
-        - linear activation function
-    - Nonlinear activation functions
-        - sigmoid function
-        - tanh function
-        - Relu function
-        - leaky Relu function
-        - softplus
-    - Exponential Linear Units
-        - ELU function
-        - SELU function
-    - Output Layer Activation Functions
-        - sigmoid
-        - softmax
-        
-
-
+Implement everything yourself. Start with core/ → training/ → models/ → projects/
